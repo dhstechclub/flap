@@ -13,6 +13,10 @@ onkeydown = function(e){
     }
 }
 
+ontouchstart = function(e){
+    spaceDown = true;
+}
+
 var bush = new Image();
 bush.src = "bush.png";
 var cloud = new Image();
